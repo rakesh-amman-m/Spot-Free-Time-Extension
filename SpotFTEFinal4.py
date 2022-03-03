@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import time
 import streamlit as st
-from pillow import Image
+from PIL import Image
 import matplotlib.pyplot as plt
 from azure.storage.blob import BlobServiceClient
 from io import StringIO
