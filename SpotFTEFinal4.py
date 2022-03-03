@@ -217,7 +217,7 @@ def main():
     st.markdown(html_temp,unsafe_allow_html=True)
     
     # Logo
-    image = Image.open(r'C:\Users\RNA238\OneDrive - Maersk Group\OneDrive\SpotFreetimeExtension\Codes\Streamlit\logo2.png')
+    image = Image.open('logo2.png')
     st.image(image)
       
     # Heading 
